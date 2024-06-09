@@ -5,9 +5,10 @@ const projectSchema = new mongoose.Schema({
   title: String,
   description: String,
   technologies: String,
-  image: Array,
+  images: Array,
   github: String,
   live: String,
+  demoimage:String
 });
 
 module.exports = mongoose.model('Project', projectSchema);
