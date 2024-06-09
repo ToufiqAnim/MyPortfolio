@@ -8,7 +8,7 @@ const projectSchema = new mongoose.Schema({
   images: Array,
   github: String,
   live: String,
-  demoimage:String
+  demoImage:String
 });
 
 module.exports = mongoose.model('Project', projectSchema);
